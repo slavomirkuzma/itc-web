@@ -6,4 +6,5 @@
  * # MainCtrl
  * Controller of the sbAdminApp
  */
-angular.module('sbAdminApp').controller('MainCtrl', function($scope, $position) { });
+angular.module('sbAdminApp').controller('SocketCtrl',
+	['$scope', '$timeout', function($scope, $timeout) { }]);

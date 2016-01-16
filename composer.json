@@ -1,0 +1,27 @@
+{
+	"name" : "sk.itcloud/itc-web",
+	"license" : "ITCloud",
+	"type" : "bundle",
+	"description" : "ITC Angular Web Interface",
+	"minimum-stability" : "dev",
+	"config" : {
+		"bin-dir" : "bin"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"" : "src/"
+		}
+	},
+	"bin" : [
+		"bin/itc-web-socket",
+		"bin/itc-web"
+	],
+	"require-dev" : {
+		"sk.itcloud.symfony/itc-orm-bundle" : "dev-master"
+	},
+	"repositories" : [{
+			"type" : "vcs",
+			"url" : "git@github.com:slavomirkuzma/itc-orm-bundle.git"
+		}
+	]
+}

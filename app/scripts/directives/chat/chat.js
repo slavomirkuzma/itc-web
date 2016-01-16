@@ -6,13 +6,11 @@
  * @description
  * # adminPosHeader
  */
-angular.module('sbAdminApp')
-	.directive('chat',function(){
+angular.module('sbAdminApp').directive('chat', function()
+	{
 		return {
-        templateUrl:'scripts/directives/chat/chat.html',
-        restrict: 'E',
-        replace: true,
-    	}
+			templateUrl: 'scripts/directives/chat/chat.html',
+			restrict: 'E',
+			replace: true,
+		}
 	});
-
-
